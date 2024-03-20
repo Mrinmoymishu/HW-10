@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    margin: 0;
+    border: 0;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+
+nav{
+    background-color:#02918b;
+    padding: 18px 0;
+    width: 97%;
+    margin: auto;
+}
+ul{
+    list-style-type:none;
+  
+}
+ul li{
+    display: inline-block;
+    padding: 0 20px;
+   
+}
+a{ color: #fff;
+    text-decoration: none;
+    text-transform:capitalize;
+  
+}
+li a:hover{
+    background-color: rgb(249, 230, 18);
+    color: rgb(3, 8, 2);
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/*=========banner========*/
+#banner{
+    background-image: url('img/MYFOLIO (1) (1).png');
+    height: 728px;
+    width: 97%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 25px;
+}
+#banner h1{
+    text-transform: uppercase;
+    font-size: 68px;
+    line-height: 75px;
+    font-weight: 800;
+    letter-spacing: 28px;
+}
+#banner p{
+    font-size: 18px;
+    line-height: 33px;
+}
+#banner img{
+     display: block;
+     margin: auto;
+    
+}
+#banner a{
+line-height: 60px;
+padding: 10px;
+background-color:rgb(249, 230, 18);
+color: black;
+}
